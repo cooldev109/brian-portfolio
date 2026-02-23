@@ -40,11 +40,6 @@ const Navbar = () => {
           <a href="#skills" className="text-white/80 hover:text-white transition-all duration-300">
             Skills
           </a>
-          <div className="relative group">
-            <button className="text-white/80 hover:text-white transition-all duration-300 flex items-center gap-1">
-              More
-            </button>
-          </div>
         </div>
 
         {/* Mobile Menu Button */}

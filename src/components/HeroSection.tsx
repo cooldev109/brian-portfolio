@@ -73,44 +73,21 @@ const HeroSection = () => {
               Specialized in React • Node.js
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-12"
-            >
-              <div className="flex items-center gap-4">
-                <p className="text-gray-300 text-lg">Based in {personalData.location}</p>
-                <div className="relative h-12 w-12">
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 animate-pulse"></div>
-                  <img
-                    src="/lovable-uploads/profile.jpg"
-                    alt="Profile"
-                    className="w-12 h-12 rounded-full object-cover relative z-10 border-2 border-white"
-                  />
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div 
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-10"
+              className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-12"
             >
               <a
-                href="#contact"
+                href="#work"
                 className="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-6 py-3 rounded-full border border-white/20 transition-all duration-300 group shadow-lg shadow-purple-900/10"
               >
-                Let's Connect
+                My Work
                 <span className="bg-white rounded-full p-1 text-black group-hover:translate-x-1 transition-transform">
                   <ArrowRight size={16} />
                 </span>
               </a>
-              <div className="flex items-center gap-2 text-gray-300 transition-all duration-300 hover:text-gray-100">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                <span>{personalData.mail}</span>
-              </div>
             </motion.div>
           </motion.div>
 
