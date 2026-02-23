@@ -113,7 +113,42 @@ export const projects = [
     ],
     "role": "Senior Frontend Developer",
     "company": "Aurox",
-    "period": "04/2021 - 12/2022"}
+    "period": "04/2021 - 12/2022"},
+    {
+    "id": 9,
+    "title": "Rent College Pads - Student Housing Platform",
+    "description": "Rent College Pads is a resource platform dedicated to helping students find off-campus housing near their campuses. The platform connects students with landlords offering apartments and other rental properties near college campuses, streamlining the search process.",
+    "image": "/png/rent-college-pads.png",
+    "url": "https://www.rentcollegepads.com/",
+    "technologies": ["React", "Node.js", "MongoDB", "Express", "JavaScript", "CSS", "RESTful APIs"],
+    "features": [
+        "Developed an intuitive and user-friendly platform to help students easily find off-campus housing",
+        "Implemented a responsive design to ensure accessibility and seamless browsing experience on all devices",
+        "Built a scalable backend using Node.js and MongoDB to manage listings, user data, and search filters",
+        "Integrated advanced search functionalities, allowing students to filter listings based on location, price, amenities, and more",
+        "Optimized the platform for performance and real-time updates, enhancing the user experience"
+    ],
+    "role": "Frontend Developer",
+    "company": "Rent College Pads",
+    "period": "02/2020 - 06/2021"},
+    {
+    "id": 10,
+    "title": "TruConnect - Multi-faceted Fitness App and Gym Management Platform",
+    "description": "TruConnect is a SaaS platform designed for gym management and fitness content delivery. The app simplifies gym operations while providing users with fitness and wellbeing resources, including social media features, leaderboards, and a robust exercise database to keep users motivated on their fitness journey.",
+    "image": "/png/truconnect.png",
+    "url": "https://play.google.com/store/apps/details?id=com.tru.connect&hl=en_GB&gl=US&pli=1",
+    "technologies": ["React Native", "Node.js", "MongoDB", "Express", "JavaScript", "Redux", "RESTful APIs", "AWS", "CI/CD"],
+    "features": [
+        "Revamped the platform following its acquisition, implementing a new and enhanced UI/UX",
+        "Integrated the web platform with the mobile app for seamless gym management and user engagement",
+        "Developed features for coach management, training schedules, and user subscriptions",
+        "Added social media functionalities like post sharing, global leaderboards, and fitness tracking to motivate users",
+        "Optimized backend for scalability and performance, ensuring smooth operations for gym chains and a better user experience"
+    ],
+    "role": "Full Stack Developer",
+    "company": "TruConnect",
+    "period": "06/2020 - Ongoing"
+}
 ];
 
 // Skills data

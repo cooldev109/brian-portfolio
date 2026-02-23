@@ -1,0 +1,13 @@
+TruConnect: Multi-faceted fitness app and gym management platform
+UK
+Healthcare
+Sports
+June 2020 - ongoing
+TruConnect is a unique SaaS platform that simplifies the management of gyms while also offering fitness and wellbeing 
+content for users.
+ This popular sports app is a revamp after acquisition based on an app developed by NERDZ LAB.
+
+The web platform integrates with a mobile app and provides a centralized access point for running 
+gym chains (coach management, training schedules, and user subscriptions).
+ It also incorporates social media application features like post sharing, global leaderboards, 
+and a robust exercise database to help users remain motivated in their fitness journey.
