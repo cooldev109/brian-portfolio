@@ -85,7 +85,7 @@ const BackgroundAnimation: React.FC<BackgroundAnimationProps> = ({
   return (
     <div 
       ref={containerRef} 
-      className="fixed inset-0 pointer-events-none z-0" 
+      className="absolute inset-0 pointer-events-none z-0"
       style={{ opacity: 0.3 }}
     />
   );

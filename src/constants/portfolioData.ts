@@ -48,7 +48,72 @@ export const projects = [
       role: 'Full Stack Web Developer',
       company: 'Loggro',
       period: '01/2019 - 02/2021'
-    }
+    },
+    {
+    "id": 5,
+    "title": "Relevium Medical - Injectable Gel for Knee Osteoarthritis",
+    "description": "Relevium Medical is developing an injectable gel for knee osteoarthritis, targeting a condition that affects nearly half of the population, offering an innovative solution for pain management and disease progression.",
+    "image": "/png/relevium-medical.png",
+    "url": "https://relevium-medical.com/",
+    "technologies": ["Python", "React.js", "Django", "PostgreSQL", "AWS", "Docker", "CI/CD"],
+    "features": [
+        "Developed the web platform for managing patient data and treatment schedules",
+        "Integrated secure data storage solutions using AWS and PostgreSQL to ensure HIPAA-compliant data handling",
+        "Built a user-friendly dashboard to track patient progress and treatment efficacy",
+        "Enhanced application scalability and reliability with Docker and CI/CD pipelines"
+    ],
+    "role": "Full Stack Developer",
+    "company": "Relevium Medical",
+    "period": "06/2021 - 12/2022"},
+    {
+    "id": 6,
+    "title": "Panaversity - AI-Powered Educational Platform",
+    "description": "Panaversity is an AI-powered platform that leverages large language models (LLMs) for interactive learning. The platform provides scalable APIs, an engaging frontend experience, and cloud-native deployment, enhancing the learning journey with efficient data handling and personalized experiences.",
+    "image": "/png/panaversity.png",
+    "url": "https://panaversity.org/",
+    "technologies": ["FastAPI", "Next.js", "Langchain", "Vector DB", "Docker", "AWS", "PostgreSQL", "CI/CD"],
+    "features": [
+        "Developed scalable and high-performance APIs using FastAPI to power the educational content delivery",
+        "Crafted interactive and dynamic frontends using Next.js for a seamless user experience",
+        "Integrated LLMs using Langchain and Vector DB to ensure efficient data handling and search capabilities",
+        "Deployed cloud-native solutions with Docker, ensuring a robust and scalable infrastructure"
+    ],
+    "role": "Full Stack Developer & AI Engineer",
+    "company": "Panaversity",
+    "period": "01/2022 - 08/2023"},
+    {
+    "id": 7,
+    "title": "Natural Zen Cleaning - WordPress Website with Elementor",
+    "description": "Natural Zen Cleaning is a service-oriented business website built on WordPress using Elementor Pro and the Astra theme. The website is designed to offer a flexible, user-friendly experience for booking cleaning services, with a seamless integration of WooCommerce for service management.",
+    "image": "/png/natural-zen-cleaning.png",
+    "url": "https://naturalzencleaning.com/",
+    "technologies": ["WordPress", "Elementor Pro", "Astra Theme", "WooCommerce", "Cost Calculator for WordPress", "SEO Plugins"],
+    "features": [
+        "Designed and developed the full frontend of the website using Elementor Pro for an intuitive and customizable layout",
+        "Integrated WooCommerce to manage services and bookings efficiently, providing a smooth checkout process",
+        "Customized the Cost Calculator plugin to allow customers to estimate service costs based on specific parameters",
+        "Optimized the site’s performance and SEO, ensuring fast load times and improved search engine visibility"
+    ],
+    "role": "Frontend WordPress Designer / Elementor Expert",
+    "company": "Natural Zen Cleaning",
+    "period": "09/2022 - 12/2022"},
+    {
+    "id": 8,
+    "title": "Aurox - Crypto Trading Ecosystem",
+    "description": "Aurox is a professional-grade crypto trading ecosystem designed for active traders and DeFi users. The platform offers a powerful Trading Terminal, advanced analytics, real-time market data, and integrated digital products, all under a unified brand identity. It emphasizes performance, clarity, and trust, ensuring a cohesive experience across web interfaces, internal tools, and marketing touchpoints.",
+    "image": "/png/aurox.png",
+    "url": "https://getaurox.com/",
+    "technologies": ["React", "Tailwind CSS", "Redux", "JavaScript", "TypeScript", "Webpack", "Jest", "CI/CD"],
+    "features": [
+        "Implemented scalable and consistent user interfaces that aligned with Aurox's refined brand identity",
+        "Built complex, production-ready interfaces using React, Tailwind CSS, and Redux for state management",
+        "Translated design systems into reusable, modular components ensuring maintainability and performance optimization",
+        "Focused on creating responsive layouts and enhancing site performance for a smooth user experience across devices",
+        "Ensured visual consistency across Aurox's main website and its professional-grade products, like the Trading Terminal"
+    ],
+    "role": "Senior Frontend Developer",
+    "company": "Aurox",
+    "period": "04/2021 - 12/2022"}
 ];
 
 // Skills data

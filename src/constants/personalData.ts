@@ -1,6 +1,6 @@
 
 export const personalData = {
-    name: "Brian Gerez",
+    name: "Brian Le",
     mail: "briangereztop@gmail.com",
     location: "Calle 18 #43g-90, Medellin, Colombia",
     education: [

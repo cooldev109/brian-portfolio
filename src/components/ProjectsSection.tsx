@@ -21,18 +21,16 @@ const ProjectsSection = () => {
   };
 
   const itemVariants = {
-    hidden: { 
-      opacity: 0, 
+    hidden: {
+      opacity: 0,
       y: 30,
-      filter: "blur(10px)",
       scale: 0.95
     },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
-      filter: "blur(0px)",
       scale: 1,
-      transition: { 
+      transition: {
         duration: 0.8,
         ease: [0.25, 0.1, 0.25, 1.0]
       }
@@ -98,7 +96,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <motion.div 
               key={project.id}
-              className="w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 slide-in-blur items-end"
+              className="w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch"
               variants={itemVariants}
               whileHover="hover"
               viewport={{ once: true, margin: "-100px" }}
@@ -106,34 +104,26 @@ const ProjectsSection = () => {
               transition={{ staggerChildren: 0.1 }}
               whileInView="visible"
               initial="hidden"
-              exit={{ 
+              exit={{
                 opacity: 0,
                 y: 30,
-                filter: "blur(5px)",
                 transition: { duration: 0.5 }
               }}
             >
               {/* Left side - Project showcase with enhanced hover effects */}
-              <motion.div 
+              <motion.div
                 className="lg:col-span-6 relative h-full"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-purple-900/20 group transition-all duration-300 h-full">
-                  <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-black/40 z-10 transition-all duration-300"></div>
-                  <motion.img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover shine transition-all duration-300"
+                <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-purple-900/20 group transition-all duration-300 h-full bg-black">
+                  <motion.img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 1 }}
-                    initial={{ opacity: 0.8, filter: "blur(2px)" }}
-                    whileInView={{ 
-                      opacity: 1, 
-                      filter: "blur(0px)",
-                      transition: { duration: 0.8 }
-                    }}
                   />
                   <div className="absolute top-5 left-5 z-10">
                     <motion.div 
@@ -158,7 +148,7 @@ const ProjectsSection = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2, duration: 0.6 }}
-                  className="bg-gray-900/40 backdrop-blur-sm p-6 rounded-xl border border-white/5 hover-3d transition-all duration-300 hover:bg-gray-900/60 hover:border-white/10 h-full"
+                  className="bg-gray-900 p-6 rounded-xl border border-white/5 hover-3d transition-all duration-300 hover:bg-gray-800 hover:border-white/10 h-full"
                   whileHover={{ 
                     backgroundColor: "rgba(25, 25, 35, 0.6)",
                     borderColor: "rgba(255, 255, 255, 0.15)",

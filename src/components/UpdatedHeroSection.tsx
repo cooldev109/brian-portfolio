@@ -20,7 +20,7 @@ const UpdatedHeroSection = () => {
             }`}
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
-              Hi, I'm <span className="text-primary">Brian Gerez</span>
+              Hi, I'm <span className="text-primary">Brian Le</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 text-muted-foreground">
               Full Stack Developer
@@ -67,7 +67,7 @@ const UpdatedHeroSection = () => {
             <div className="relative mx-auto max-w-md overflow-hidden rounded-full border-4 border-primary/20 shadow-xl">
               <img
                 src="/lovable-uploads/2459d008-bfd6-4bf4-a27d-0aa11a872ff7.png"
-                alt="Brian Gerez"
+                alt="Brian Le"
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 rounded-full ring-2 ring-primary/10 ring-offset-2 ring-offset-background"></div>

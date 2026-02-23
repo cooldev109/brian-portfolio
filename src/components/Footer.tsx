@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Brian Gerez</h3>
+            <h3 className="text-xl font-bold mb-4">Brian Le</h3>
             <p className="text-gray-400 mb-6">
               Help you create experiences where aesthetics & functionality seamlessly come together.
             </p>
@@ -107,7 +107,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} Brian Gerez. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Brian Le. All rights reserved.</p>
         </div>
       </div>
     </footer>
